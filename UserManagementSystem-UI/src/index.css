@@ -1,0 +1,444 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to left, rgb(24, 111, 212), rgb(161, 177, 210), rgb(201, 215, 232));
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.welcome {
+  margin-top: 15%;
+  float: right;
+  margin-right: 10%;
+}
+NavLink:hover{
+  color: white;
+  text-decoration: none;
+}
+Button {
+  width: 400px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+Form {
+  margin: 50px 30% 0 30%;
+}
+
+.modal_content {
+  background-color: white;
+  margin-left: 30%;
+  margin-top: 250px;
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  left: 0%;
+  width: 40%;
+  border-radius: 10px;
+  border: 2px solid #0d3541;
+}
+
+.editTable {
+  margin-top: 0px;
+  margin-left: 20%;
+}
+
+button {
+  margin: 10px 1px;
+  padding: 3px;
+
+  width: 100px;
+}
+.editbtn{
+}
+.cardsize {
+  margin: 0 20% 2px 30%;
+  width:55rem ;
+
+}
+
+.search {
+  font-family: verdana;
+  font-size: 20px;
+
+}
+
+.pop {
+  align-items: center;
+}
+
+.admindata {
+  margin-top: 100px;
+}
+
+Table {
+  margin: 5% 0 0 60%;
+  padding: 15px;
+  display: block;
+  align-items: center;
+}
+
+.alignment {
+  position: sticky;
+  top: 69px;
+width:55rem;
+  background-color: #cae8ca;
+  border: 3px solid #0d1355;
+  margin: 20px 0 5px 30%;
+
+}
+
+.cardIndex {
+  position: static;
+  z-index: -5;
+}
+
+.about {
+  margin: 11% 0 0 150px;
+}
+
+.nodata {
+  background-color: white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin: 25% 0 0 30%;
+  width: 40%;
+  border-radius: 10px;
+  border: 2px solid #0d3541;
+}
+
+.sidebaranchor {
+  margin: 10px 0 30px 10%;
+  text-decoration: none;
+  display: block;
+  letter-spacing: 2px;
+  width: 160px;
+  height: 50px;
+  background: #01222b;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sidebaranchor:hover {
+  width: 220px;
+  font-size: 20px;
+  height: 60px;
+  color:rgb(128, 255, 255);
+  transition: .2s;
+}
+
+.btn {
+  display: inline;
+}
+
+.forgettable {
+  margin: 10px;
+  padding: 10px;
+}
+
+.canvass {
+  margin-top: 4%;
+  height: 100%;
+  width: 300px;
+  background-color: #0d3541;
+}
+
+.navbar {
+  text-align: center;
+  text-decoration: none;
+  background-color: #0d3541;
+  color: white;
+}
+
+.contact {
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+/* 
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+} */
+
+.desc {
+  margin: 200px;
+}
+
+.usercard {
+  align-items: center;
+  float: left;
+  margin: 100px auto;
+}
+
+.login,
+.logout,
+.signup {
+  border-color: black;
+  border: 2px;
+  margin-top: 110px;
+}
+
+.feedback {
+  margin: 100px;
+}
+
+.sortusers {
+  margin-left: 78%;
+  width: 10%;
+}
+
+.headingfeedback {
+  margin-top: 5%;
+}
+
+.usertable {
+  padding: 5px;
+  margin: 1px;
+  margin-left: 350px;
+  letter-spacing: 4px;
+}
+
+
+.view {
+  width: 130px;
+}
+
+.paginationUsers {
+
+  margin-top: 1%;
+  border: #01222b dashed 2px;
+  background-color: #cdc0b3;
+  width: 670px;
+  border-radius: 10px;
+  /* margin:20px; */
+  margin-left: 37%;
+}
+
+tr:hover {
+  background-color: rgb(82, 80, 105);
+  color: white;
+}
+
+.forget {
+  text-align: center;
+  margin-top: 100px;
+
+}
+.welcome{
+
+}
+.user-dashboard{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 700px;
+  margin:68px auto ;
+  border: #000000 solid 20px;
+  border-radius: 50%;
+  padding:0px 50px;
+}
+.btn-dashboard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navlogout{
+  float: right;
+}
+.gallery{
+  display: flex;
+  margin: 55px auto;
+  flex-direction: column;
+  align-items: center;
+}
+.head-gallery{
+font-size: 50px;
+font-family: cursive;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 0px;
+  background-color: #000000;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.grid-container div img:hover{
+  width: 210px;
+  height:180px;
+}
+
+@media screen and (max-width: 990px) {
+
+  /* For mobile phones: */
+  [class*="col-"] {
+    height: 100%;
+    width: 280px;
+  }
+
+  .fixed-top {
+    position: static;
+  }
+
+
+  .sidebutton {
+    margin-top: 220px;
+  }
+
+
+  .contact {
+    margin-top: 20%;
+    padding-top: 20%;
+  }
+
+  .modal_content {
+    background-color: white;
+    position: fixed;
+    margin-top: 100px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid rgb(300, 1, 237);
+  }
+
+  .editTable {
+    margin-top: 0px;
+  }
+
+  .usercard {
+    margin: 5px auto;
+    float: left;
+  }
+
+  .logout,
+  .login,
+  .signup,
+  .feedback{
+    margin-top: 0px;
+    margin-left: -90px;
+  }
+
+  .welcome img {
+    float: left;
+    margin: -30px;
+    width: 400px;
+  }
+/* 
+  .sidebaranchor {
+    margin: 8px;
+    display: block;
+    width: 150px;
+  } */
+
+  .form-control {
+    width: 285px;
+  }
+
+  .desc {
+    margin: 50px 20px;
+  }
+
+  .forget Form {
+    margin: 0;
+    width: 299px;
+  }
+  /* //dashboard */
+  
+.canvass {
+  margin-top: 2%;
+  display:inline;
+  background-color: #0d3541;
+}
+  .sidebaranchor{
+    display:inline-block;
+    width:155px;
+    
+  }
+  .sortusers{
+    margin-left:70%; 
+    width:30%;
+  }
+  .alignment {
+    margin-left: 0px;
+    top:10px;
+    width:100%;
+  }
+  .usertable{
+    margin:0 0 0 -150px;
+    width:auto;
+    letter-spacing: 0px;
+    padding:0;
+  }
+  
+  .cardsize {
+    margin-left: 0px;
+    width: 100%;
+    align-self:center;
+  }
+  .paginationUsers{
+    margin:auto;
+    width:auto
+  }
+  .admindata{
+    margin:10px;
+  }
+  .feedbacksTable{
+    margin:0 0 0 -190px;
+    width:70%;
+    letter-spacing:-1px;
+  }
+  .user-dashboard{
+    justify-content:flex-start;
+    align-items:center;
+    width: 320px;
+    margin: auto ;   
+     flex-direction: column;
+  }
+  
+.modal_content {
+  background-color: white;
+  /* margin:0 auto; */
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: -65px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  border: 2px solid #0d3541;
+}
+.btn-dashboard{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.editTable {
+  margin-top: 0px;
+  margin-left: 0%;
+}
+.grid-container {
+  grid-template-columns: auto auto auto ;
+}
+}
